@@ -1,0 +1,9 @@
+/.env
+/node_modules
+/.encryptedKey.json
+/coverage
+/cache
+/artifacts
+/coverage.json
+/gas-resport.txt
+/deployments
