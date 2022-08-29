@@ -105,6 +105,10 @@ contract Web3Funding {
     function getPriceFeed() public view returns (AggregatorV3Interface) {
         return s_priceFeed;
     }
+
+    function getBalance() public view returns (uint256) {
+        return address(this).balance;
+    }
 }
 
 // Sample contract rinkeby address: 0x3eEA2fBE92E6AAFb22c58777B952F56452DC9b2d
